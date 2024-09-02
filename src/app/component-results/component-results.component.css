@@ -1,0 +1,48 @@
+h2 {
+    font-size: 24px;
+    font-weight: 700;  
+}
+
+.results-container {
+    text-align: left;
+}
+
+.results-section {
+    padding: 2rem;
+    background-color: #0e232f;
+    border-radius: .5rem;
+    border-top: 4px solid #d7da2f; 
+}
+
+.results-section h3 {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.results-section p.repayment {
+    color: #d7da2f;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.results-section p.total {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.results-section hr {
+    border: none;
+    height: 1px;
+    background-color: #4e6e7e;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.empty-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    gap: 1rem;
+}
